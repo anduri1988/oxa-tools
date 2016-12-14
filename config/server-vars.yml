@@ -104,5 +104,4 @@ EDXAPP_LTI_USER_EMAIL_DOMAIN: "lti.openedx.microsoft.com"
 # Add lms-preview to list sites to configure
 nginx_sites: [certs, cms, lms, lms-preview, forum, xqueue]
 edx_ansible_source_repo: "%%CONFIGURATION_REPO%%"
-
 configuration_version: "%%CONFIGURATION_VERSION%%"
